@@ -1,0 +1,12 @@
+let path = require("path");
+let fs = require("fs");
+let inputArr = process.argv.slice(2);
+console.log(inputArr);
+let fileName = inputArr[0];
+let content = inputArr[1];
+// console.log("FileName : ",fileName);
+console.log("Content : ",content);
+let currentPath = process.cwd();
+console.log("Current Path :",currentPath);
+let filePath = path.join(currentPath,"dir1",fileName);
+console.log("FilePath : ",filePath);
