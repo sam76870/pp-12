@@ -1,6 +1,6 @@
-let b = 10;
-
-console.log("Tree command",b);
-module.exports ={
-    VarName:a
+function treeFn(src) {
+    console.log("tree command with executed : " + src);
+}
+module.exports = {
+    treeFun: treeFn
 }
