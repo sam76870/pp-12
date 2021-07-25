@@ -3,7 +3,7 @@ let path = require("path");
 let types = {
     media: ["mp4", "mkv", "mp3","jpg","gif","mkv","jpeg","png"],
     archives: ['zip', '7z', 'rar', 'tar', 'gz', 'ar', 'iso', "xz"],
-    documents: ['docx', 'doc', 'pdf', 'xlsx', 'xls', 'odt', 'ods', 'odp', 'odg', 'odf', 'txt', 'ps', 'tex'],
+    documents: ['docx', 'doc', 'pdf', 'xlsx', 'xls', 'odt', 'ods', 'odp', 'odg', 'odf', 'txt', 'ps', 'tex','ocr'],
     app: ['exe', 'dmg', 'pkg', "deb"]
 }
 
